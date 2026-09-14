@@ -6,6 +6,7 @@ namespace Tyuiu.BerezkinDA.Sprint1.Task0.V2
     {
         static void Main(string[] args)
         {
+            DataService df = new DataService();
             Console.Title = "Спринт #1 | Выполнил: Берёзкин Д.А. | НТм-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -20,7 +21,7 @@ namespace Tyuiu.BerezkinDA.Sprint1.Task0.V2
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(DataService.DoSomething());
+            Console.WriteLine(df.Calculate());
             Console.ReadKey();
         }
     }
